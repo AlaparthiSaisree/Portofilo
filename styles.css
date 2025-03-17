@@ -1,0 +1,205 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background: #001F54;
+    color: white;
+    margin: 0;
+}
+h2 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+/* Navbar */
+
+header {
+    background: #1e1e1e;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    background: url("assets/hero-bg.jpg") no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero h2 {
+    font-size: 3rem;
+}
+.hero .btn {
+    background: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+.about img {           
+    border-radius: 50%;  
+    object-fit: cover;
+}
+/* Skills Section */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.skill {
+    background: #333;
+    padding: 10px;
+}
+.progress {
+    background: #555;
+    height: 10px;
+    width: 100%;
+    position: relative;
+}
+.progress div {
+    height: 100%;
+    background: #ff6600;
+}
+
+/* Projects Section */
+.project-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+	padding: 20px;
+}
+.project img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Contact Form */
+form {
+    text-align: center;
+}
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+}
+form button {
+    background: #ff6600;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+.social-icons i {
+    font-size: 25px;
+    margin: 0 10px;
+    color: white;
+}
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+section {
+    padding: 40px 0;
+    text-align: center;
+}
+.certifications-slider {
+    display: flex;
+    overflow-x: scroll;
+}
+.certification-card {
+    min-width: 200px;
+    background:#C0C0C0;;
+	color:  #333;
+    margin: 10px;
+    padding: 15px;
+    box-shadow: 0px 0px 5px gray;
+}
+.project {
+    width: 100%;
+    padding: 25px;
+	margin: 10px;
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Glassmorphism Blur Effect */
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: white;
+}
+.social-icons i {
+    font-size: 25px;
+    margin: 0 10px;
+    color: white;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Modal Styling */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: black;
+    padding: 50px;
+    margin: 15% auto;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+	#modal-description {
+    white-space: pre-line;
+}
+
+.close-btn {
+    float: right;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Add hover effect to indicate interactivity */
+.project-title {
+    cursor: pointer;
+    color: #007BFF;
+    transition: color 0.3s ease;
+}
+
+.project-title:hover {
+	transform: translateY(-10px); /* Floating effect */
+    box-shadow: 8px 8px 25px rgba(0, 0, 0, 0.3);
+    background: rgba(255, 255, 255, 0.2); /* Slightly brighter on hover */
+}

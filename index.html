@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saisree Alaparthi - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <div class="container">
+            <h1 class="logo">Saisree Alaparthi</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+					<li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+                    <li><a href="#skills"><i class="fas fa-code"></i> Skills</a></li>
+                    <li><a href="#experience"><i class="fas fa-briefcase"></i> Experience</a></li>
+                    <li><a href="#certifications"><i class="fas fa-certificate"></i> Certifications</a></li>
+                    <li><a href="#project"><i class="fas fa-project-diagram"></i> Projects</a></li>
+                    <li><a href="#education"><i class="fas fa-graduation-cap"></i> Education</a></li>
+                    <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+                </ul>
+            </nav>
+            <div class="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Hi, I'm <span>Saisree</span></h2>
+            <p>A Software Engineer & Full Stack Developer, specialization in Cybersecurity.</p>
+			<br></br>
+            <a href="mailto:saisree.alaparthi@gmail.com" class="btn">Hire Me</a>
+            <a href="Saisree_Resume.pdf" class="btn">Download Resume</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="photo_mine.jpg" alt="Saisree Alaparthi" >
+                <p>I am a dedicated and results-driven Software Engineer pursuing a Master’s in Computer Science at Wright State University, with expertise in full-stack development, cybersecurity, and cloud computing. Passionate about building secure, scalable applications, I thrive in dynamic environments that challenge my technical, analytical, and problem-solving skills.</p>
+				<p>Key Highlights:</p>
+				<p>- Software Development: Led projects like the Intelligent Hospital Management System and Banking & Finance System, implementing secure, scalable architectures with Java, Django, and SQL.</p>
+				<p>- Cybersecurity & Ethical Hacking: Conducted vulnerability assessments, penetration testing (VAPT), and security automation, enhancing system defenses against cyber threats.<p>
+				<p>- Cloud & DevOps: Certified in AWS, Azure, and Oracle, with hands-on experience in cloud security, multi-cloud networking, and CI/CD pipelines (Docker, Jenkins).<p>
+				<p>- Technical Proficiency: Skilled in Python, Java, React, MySQL, and cybersecurity frameworks, integrating security best practices into application development.<p>
+				<p>- Innovative Problem Solver: Passionate about securing digital ecosystems, optimizing application performance, and leveraging AI/ML for cybersecurity enhancements.</p>
+				<p>Eager to contribute my skills to cutting-edge software and security solutions, collaborating with teams to build resilient, high-performance applications. Let’s connect and innovate together!.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+    <div class="container">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-panel">
+                <h3><i class="fas fa-code"></i> Programming Languages</h3>
+                <p>Java, Python, C, HTML, CSS, XML</p>
+            </div>
+            <div class="skill-panel">
+                <h3><i class="fas fa-database"></i> Database</h3>
+                <p>MySQL, Oracle</p>
+            </div>
+            <div class="skill-panel">
+                <h3><i class="fas fa-cloud"></i> Cloud & DevOps</h3>
+                <p>AWS, Azure, Docker, Jenkins, Git, Django</p>
+            </div>
+            <div class="skill-panel">
+                <h3><i class="fas fa-shield-alt"></i> Cybersecurity</h3>
+                <p>Ethical Hacking, VAPT, Penetration Testing</p>
+            </div>
+			<div class="skill-panel">
+                <h3><i class="fas fa-tools"></i> Tools & Platforms </h3>
+                <p>VirtualBox, Data Analysis, Wireshark, Cisco Packet Tracker</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+#skills {
+    padding: 50px 20px;
+    text-align: center;
+    color: white;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.skill-panel {
+    background: linear-gradient(135deg, #ff6b6b, #ff8e53);
+    padding: 20px;
+    border-radius: 12px;
+    width: 260px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.skill-panel h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.skill-panel p {
+    font-size: 16px;
+}
+
+.skill-panel:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+</style>
+
+
+   <!-- Experience Section -->
+<section id="experience">
+    <div class="container">
+        <h2>Experience</h2>
+        <div class="experience-grid">
+            <!-- Card 1: Cybersecurity Virtual Internship -->
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <!-- Front Side -->
+                    <div class="flip-card-front">
+                        <img src="cybersecurity.jpg" alt="Cybersecurity Virtual Internship">
+                        <h3>Cybersecurity Virtual Internship</h3>
+                    </div>
+                    <!-- Back Side -->
+                    <div class="flip-card-back">
+                        <h4>Palo Alto Networks Cybersecurity Academy</h4>
+                        <p>Conducted vulnerability assessments on enterprise systems, identifying X+ security gaps and proposing mitigations.</p>
+                        <p>Developed automated security scripts using Python, improving threat detection by Y%.</p>
+                        <p>Collaborated with a team to implement incident response simulations, reducing system downtime by Z%.</p>
+                        <p><strong>Tech Stack:</strong> Network Security, Threat Analysis, Security Incident Response, Vulnerability Assessment </span></p> 
+					</div>
+                </div>
+            </div>
+            
+            <!-- Card 2: Ethical Hacking Training -->
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <!-- Front Side -->
+                    <div class="flip-card-front">
+                        <img src="ethical-hacking.jpg" alt="Ethical Hacking Training">
+                        <h3>Ethical Hacking Training</h3>
+                    </div>
+                    <!-- Back Side -->
+                    <div class="flip-card-back">
+                        <h4>Internshala</h4>
+                        <p>Conducted VAPT, enhancing system defenses and identifying security gaps. Automated assessments, refining security measures.</p>
+                        <p>Led ethical hacking tasks, boosting team threat detection skills. Optimized penetration testing, reducing detection time with automation.</p>
+                        <p>Shared cyber threat insights, elevating team expertise through simulations.</p>
+						<p><strong>Tech Stack:</strong> Cybersecurity, Data Analysis, Networking, Ethical Hacking </span></p> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+/* General Styling */
+#experience {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.experience-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+/* Flip Card Styling */
+.flip-card {
+    margin: 30px;
+    background-color: transparent;
+    width: 300px;
+    height: 350px;
+    perspective: 1000px; /* 3D effect */
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+/* Front & Back Side */
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Front Side */
+.flip-card-front {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.flip-card-front img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.flip-card-front h3 {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #333;
+}
+
+/* Back Side */
+.flip-card-back {
+    background:linear-gradient(135deg, #ff9a9e, #fad0c4);
+    color: white;
+    padding: 20px;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flip-card-back h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.flip-card-back p {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+</style>
+
+	
+	<!-- Certifications Section with Scroll Navigation -->
+<section id="certifications">
+    <div class="container">
+        <h2>Certifications</h2>
+        
+        <div class="certifications-carousel">
+            <!-- Left Arrow -->
+            <span class="scroll-arrow left" onclick="scrollCarousel('left')">&#60;</span>
+            
+            <!-- Certifications Grid (Horizontal Scroll) -->
+            <div class="certifications-grid">
+                <!-- Certification 1 -->
+				<div class="certification-card">
+                    <img src="jp-logo.jpg" alt="JPMorgan Certification Logo" class="certification-logo">
+                    <h3>JPMorgan Chase & Co's Software Engineering on Forage</h3>
+                    <p>Completed: March 2025</p>
+                    <p> Gained expertise in implementing data visualization dashboards, developing secure banking solutions, and working with JPMorgan's financial infrastructure..</p>
+                </div>
+				<!-- Certification 2 -->
+				<div class="certification-card">
+                    <img src="net-logo.jpg" alt=".NET Fundamentals Logo" class="certification-logo">
+                    <h3>.NET Fundamentals, Great Learning</h3>
+                    <p>Completed: December 2024</p>
+                    <p>Learned the fundamentals of .NET, including C#, ASP.NET, and web application development.</p>
+                </div>
+				<!-- Certification 3 -->
+                <div class="certification-card">
+                    <img src="aws-logo.jpg" alt="AWS Certification Logo" class="certification-logo">
+                    <h3>Solutions Architect Associate, AWS</h3>
+                    <p>Completed: May 2023</p>
+                    <p>Specialized in architecting and deploying scalable, cost-efficient cloud applications.</p>
+                </div>
+                
+                <!-- Certification 4 -->
+                <div class="certification-card">
+                    <img src="aviatrix-logo.jpg" alt="Aviatrix Certification Logo" class="certification-logo">
+                    <h3>Multi-Cloud Networking Associate, Aviatrix</h3>
+                    <p>Completed: June 2023</p>
+                    <p>Mastered multi-cloud networking concepts and deploying secure cloud architectures.</p>
+                </div>
+                
+                <!-- Certification 5 -->
+                <div class="certification-card">
+                    <img src="azure-logo.jpg" alt="Azure Certification Logo" class="certification-logo">
+                    <h3>Azure Fundamentals & Security, Microsoft</h3>
+                    <p>Completed: January 2023</p>
+                    <p>Learned about Azure core services, cloud concepts, and security practices.</p>
+                </div>
+                
+                <!-- Certification 6 -->
+                <div class="certification-card">
+                    <img src="oracle-logo.jpg" alt="Oracle Certification Logo" class="certification-logo">
+                    <h3>Associate Developer, Oracle</h3>
+                    <p>Completed: August 2022</p>
+                    <p>Gained proficiency in Oracle database management, SQL, and PL/SQL development.</p>
+                </div>
+				<!-- Certification 7 -->
+                <div class="certification-card">
+                    <img src="python-logo.jpg" alt="PCAP Certification Logo" class="certification-logo">
+                    <h3>Certified Associate in Python Programming, Cisco Networking Academy</h3>
+                    <p>Completed: August 2020</p>
+                    <p>Learned core Python programming concepts, including data structures, algorithms, and object-oriented programming.</p>
+                </div>
+                
+                <!-- Add more certifications as needed -->
+            </div>
+
+            <!-- Right Arrow -->
+            <span class="scroll-arrow right" onclick="scrollCarousel('right')">&#62;</span>
+        </div>
+    </div>
+</section>
+
+<style>
+/* Styling for the Certifications Section */
+#certifications {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.certifications-carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.certifications-grid {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    scroll-behavior: smooth;
+	-ms-overflow-style: none;  /* For IE 10+ */
+    scrollbar-width: none; /* For Firefox */
+}
+
+.certification-card {
+    width: 200px;
+    padding: 20px;
+    background-color:#ff6b6b;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.certification-logo {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.certification-card h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Arrows for Scrolling */
+.scroll-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    color: #6f42c1;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.scroll-arrow.left {
+    left: 0;
+}
+
+.scroll-arrow.right {
+    right: 0;
+}
+
+
+</style>
+
+<script>
+// JavaScript function to scroll the carousel
+function scrollCarousel(direction) {
+    const carousel = document.querySelector('.certifications-grid');
+    
+    // Get the scroll distance (offsetWidth for each card and the gap between them)
+    const scrollDistance = document.querySelector('.certification-card').offsetWidth + 20; // 20px for the gap
+    
+    if (direction === 'left') {
+        carousel.scrollBy({ left: -scrollDistance, behavior: 'smooth' });
+    } else {
+        carousel.scrollBy({ left: scrollDistance, behavior: 'smooth' });
+    }
+}
+</script>
+
+
+    <!-- Projects Section -->
+    <section id="project">
+    <div class="container">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3 class="project-title" data-project="weather-app">Weather App</h3>
+            <p>A React-based weather forecasting app fetching real-time data from the OpenWeatherMap API.</p>
+			  <p><strong>Tech Stack:</strong> React, OpenWeatherMap API, HTML, CSS, Font Awesome.</span></p>
+        </div>
+
+        <div class="project">
+            <h3 class="project-title" data-project="hospital-system">Intelligent Hospital Management System</h3>
+            <p>Developed a scalable hospital management system with Java and Spring Framework.</p>
+			<p><strong>Tech Stack:</strong> Java Database Connectivity (JDBC), JavaScript, HTML, Cascading Style Sheets (CSS),</p>
+			<p> Spring Framework, XML, Servlets.</span></p>
+        </div>
+
+        <div class="project">
+            <h3 class="project-title" data-project="insurance-system">Health and Life Insurance System</h3>
+            <p>Created a dynamic insurance portal with Django and MySQL.</p>
+			<p><strong>Tech Stack:</strong> SQL, Django</span></p>
+        </div>
+
+        <div class="project">
+            <h3 class="project-title" data-project="banking-system">Banking and Finance System</h3>
+            <p>Designed a Java-based secure banking system with Angular CLI and MySQL.</p>
+			<p><strong>Tech Stack:</strong> Visual Studio, Angular CLI, SQL</span></p>
+        </div>
+    </div>
+</section>
+
+<!-- Popup Modal -->
+<div id="project-modal" class="modal">
+    <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <h3 id="modal-title"></h3>
+        <p id="modal-description"></p>
+    </div>
+</div>
+
+<!-- Education Section -->
+<section id="education">
+    <div class="container">
+        <h2>Education</h2>
+        <div class="education-grid">
+            <!-- Wright State University -->
+            <div class="education-card">
+                <div class="edu-content">
+                    <img src="wright-state-logo.jpg" alt="Wright State University Logo" class="edu-logo">
+                    <h3>Wright State University</h3>
+                    <p><strong>Master of Science - MS, Computer Science</strong></p>
+                    <p>Aug 2023 - May 2025 | GPA: 3.5</p>
+                    <p><strong>Activities:</strong> Student Worker (FSW), Table Tennis, Swimming, Content Writing, Learning new things.</p>
+                </div>
+            </div>
+
+            <!-- KL University -->
+            <div class="education-card">
+                <div class="edu-content">
+                    <img src="kl-university-logo.jpg" alt="KL University Logo" class="edu-logo">
+                    <h3>KL University</h3>
+                    <p><strong>Bachelor of Technology - BTech, Computer Science</strong></p>
+					<p><strong>Specialization: Cybersecurity</strong></p>
+                    <p>Jun 2019 - Mar 2023 | GPA: 3.7</p>
+                    <p><strong>Activities:</strong> Web Content Writing, AWS, Web Design, Ethical Hacking, Blockchain.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+/* Education Section */
+#education {
+    padding: 60px 0;
+    text-align: center;
+    color: white;
+}
+
+/* Education Grid */
+.education-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+/* Floating Panel */
+.education-card {
+    width: 80%;
+    max-width: 600px;
+    background: linear-gradient(135deg, #7b4397, #dc2430);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+}
+
+/* Floating Effect on Hover */
+.education-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* University Logo */
+.edu-logo {
+    width: 80px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Education Content */
+.edu-content {
+    text-align: center;
+}
+
+/* No Skill Box */
+</style>
+
+
+
+    <!-- Contact Section -->
+    <section id="contact">
+    <div class="container">
+        <h2>Contact Me</h2>
+        <form action="submit_form.php" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Email Address" required>
+            <input type="phone" name="phone" placeholder="Phone Number" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</section>
+<style>
+/* Contact Section Styling */
+#contact {
+    padding: 60px 0;
+    text-align: center;
+    
+    color: white;
+}
+
+/* Form Inputs */
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid rgba(255, 255, 255, 0.6); /* Transparent border */
+    border-radius: 5px;
+    background: transparent;
+    color: white;
+    font-size: 16px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+/* Placeholder Text Style */
+input::placeholder, textarea::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* Focus Effect */
+input:focus, textarea:focus {
+    border-color: #ffbf00; /* Highlight border on focus */
+    background: rgba(255, 255, 255, 0.1); /* Slight background change */
+}
+
+/* Submit Button */
+button {
+    background-color:blue;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button Hover */
+button:hover {
+    background-color:blue;
+}
+</style>
+	<footer>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/alaparthi-saisree" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/AlaparthiSaisree" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="mailto:saisree.alaparthi@gmail.com"><i class="fas fa-envelope"></i></a>
+			<a href="https://www.eurchembull.com/archives/volume-12/special%20issue-7/13779" target="_blank"><i class="fas fa-file-alt"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
