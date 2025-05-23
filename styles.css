@@ -50,8 +50,9 @@ nav ul li a {
     text-decoration: none;
 }
 .about img {           
-    border-radius: 50%;  
-    object-fit: cover;
+    border-radius: 30%;  
+    object-fit: center/cover;
+	width: 30%;
 }
 /* Skills Section */
 .skills-grid {
