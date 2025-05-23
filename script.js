@@ -21,6 +21,15 @@ document.addEventListener("DOMContentLoaded", function () {
     const closeModal = document.querySelector(".close-btn");
 
     const projectDetails = {
+		"quantum": {
+            title: "Quantum Algorithms: Grover’s Search Implementation",
+            description:[
+			" Developed a 2-qubit Grover’s search circuit to find target state |10>, visualized results via Qiskit simulators.",
+			"Extended implementation to a 3-qubit circuit to locate the state |101> and executed it on a real IBM quantum backend with 1000 shots.",
+			"Solved a 3-SAT problem using a custom-built oracle based on DIMACS CNF, without deprecated PhaseOracle, and implemented Grover’s algorithm to find valid solutions.",
+			"Captured and analyzed results across simulations and real quantum hardware to evaluate quantum speedup and accuracy under noise."
+		    ].join("\n"), 
+		},   
         "weather-app": {
             title: "Weather App",
             description:[
@@ -30,7 +39,24 @@ document.addEventListener("DOMContentLoaded", function () {
 			"Future improvements include user geolocation detection and hourly forecasts.", 
 			"Built as part of the PM Accelerator program to enhance frontend development and API integration skills."
 		    ].join("\n"), 
+		},  
+		"ir": {
+            title: "Design and Evaluation of a Vector-Based Information Retrieval System",
+            description:[
+			"Developed a full-featured vector-space-based IR system using Python and scikit-learn, implementing custom TF-IDF and Binary Vectorization.",
+			"Integrated preprocessing (tokenization, lowercasing, stop-word removal), and computed Cosine Similarity and Manhattan Distance across 225 queries and 1400 documents.",
+			"Evaluated performance using Precision, Recall, and F-score, generating over 9000 similarity scores and 12 evaluation graphs with matplotlib.", 
+			"Delivered a clean, reproducible, CLI-based solution with full documentation and dependency management."
+		    ].join("\n"), 
 		},   
+        "dc": {
+            title: "Distributed Network Design using Cisco Packet Tracer",
+            description:[
+			"Designed and implemented a distributed campus network using Cisco Packet Tracer, featuring subnetting, CIDR-based IP allocation, and multi-subnet connectivity.",
+			"Configured routers, switches, and end-devices with manual IP setup and validated inter-subnet communication using CLI ping tests.",
+			"Achieved full connectivity with zero packet loss and documented the network architecture, IP strategy, and test results."
+		    ].join("\n"), 
+		},   		
         "hospital-system": {
             title: "Intelligent Hospital Management System",
             description:[ 
